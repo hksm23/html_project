@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label tag</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="email"> Username:</label>
+        <input type="text" id="email" placeholder="email" required="true"> <br>
+
+        <label for="user_password">Password:</label>
+        <input id="user_password" type="password"> <br>
+        <input type="submit"> 
+    </form>
+
+    <form>
+        <label for="male">Male:</label> 
+        <input type="radio" id="male" name="gender" value="male"> <br>
+
+        <label for="female">Female:</label> 
+        <input type="radio" id="female" name="gender" value="female"> <br>
+
+        <label for="other">Other:</label>
+        <input type="radio" id="other" name="gender" value="other"> <br>
+    </form>
+
+    <form>
+        <label for="C">C</label>
+        <input type="checkbox" name="lang" id="C"> <br>
+          
+        <label for="C++">C++</label>
+        <input type="checkbox" name="lang" id="C++">
+    </form>
+
+    <form>
+        <label for="country">Select your Country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Us">US</option>
+            <option value="Other">Other</option>
+        </select>
+    </form>
+
+    <form>
+        <textarea name="story" id="story" cols="30" rows="60">Please write a story</textarea>
+    </form>
+</body>
+</html>
